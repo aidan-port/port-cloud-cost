@@ -1,7 +1,4 @@
-provider "aws" {
-  profile = var.profile
-  region  = var.region
-}
+provider "aws" {}
 
 terraform {
   backend "s3" {}
